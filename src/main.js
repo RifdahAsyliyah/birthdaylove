@@ -57,7 +57,7 @@ app.innerHTML = `
           </p>
           <p>
           Hari ini adalah hari spesial untuk seseorang yang sangat berarti
-          buat adek. Jadi, adek bikin sesuatu kecil untuk abang.
+          buat adek. Jadi, adek bikin sesuatu yang kecil untuk abang.
           </p>
         </p>
 
@@ -139,7 +139,7 @@ app.innerHTML = `
           Selamat mengulang tanggal 26 September yang kesekian kalinya yaaa abang♡
           Selamat menua dan selamat menjadi pria dewasa yang sudah menginjak kepala 2,
           semoga di umur 20 tahun ini abang bisa jadi versi terbaik dari diri abang sendiri.
-          semoga di tanggal 26 September di tahun berikutnya kita masih bisa saling bertukar cerita
+          Semoga di tanggal 26 September di tahun berikutnya kita masih bisa saling bertukar cerita
           dan merayakan satu sama lain yaaa. Dan ditahun selanjutnya tidak akan ada lagi yang namanya
           lelaki tidak pernah dirayakan, karena sama adek abang harus merasakan bagaimana rasanya dirayakan dan diperhatikan.
         </p>
@@ -332,6 +332,21 @@ app.innerHTML = `
             Karena hari biasa pun terasa sedikit lebih spesial
             kalau ada abang di dalamnya.
           </p>
+        </article>
+
+        <article class="reason-card">
+          <span class="reason-number">04</span>
+          <div class="reason-icon">🥺</div>
+          <h3>Terima kasih sudah selalu sabar</h3>
+          <p>
+            Abang selalu sabar menghadapi adek yang kadang
+            suka marah-marah, bete, dan mood-nya naik turun.
+            Maafin adek ya abang, kalau selama ini sering bikin
+            abang capek atau kesal. Banyak-banyak maaf,
+            dan banyak-banyak terima kasih ya abang sayang karena abang selalu
+            memilih untuk tetap sabar dan tetap ada. 🤍
+          </p>
+        </div>
         </article>
 
       </div>
