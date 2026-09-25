@@ -52,6 +52,7 @@ app.innerHTML = `
         </h1>
 
         <p class="hero-description">
+          26 September 2026
           Hari ini adalah hari spesial untuk seseorang yang sangat berarti
           buat adek. Jadi, adek bikin sesuatu kecil untuk abang.
         </p>
@@ -78,7 +79,7 @@ app.innerHTML = `
 
         <div class="photo-note">
           <span>my favorite</span>
-          <strong>person ♡</strong>
+          <strong>person♡</strong>
         </div>
 
       </div>
@@ -103,7 +104,7 @@ app.innerHTML = `
         <p class="letter-greeting">Abang,</p>
 
         <p>
-          Selamat ulang tahun yaaa, abang. ♡
+          Selamat ulang tahun yaaa abang♡.
           Hari ini adek cuma mau bilang kalau adek bersyukur banget
           bisa kenal, bisa dekat, dan bisa punya banyak cerita sama abang.
         </p>
@@ -112,26 +113,40 @@ app.innerHTML = `
           Terima kasih sudah hadir di kehidupan adek. Terima kasih untuk
           semua perhatian kecil, obrolan random, candaan, cerita,
           dan semua momen yang mungkin sederhana, tapi selalu berhasil
-          jadi sesuatu yang berarti buat adek.
+          jadi sesuatu yang berarti buat kita berdua.
         </p>
 
         <p>
           Adek mungkin nggak selalu pandai mengungkapkan perasaan,
-          kadang malah suka gengsi atau bikin abang kesel hehe.
-          Tapi satu hal yang adek harap abang tahu:
+          kadang malah suka gengsi atau bikin abang kesel hehe....
+          Tapi satu hal yang adek harap abang tahu,
           abang itu penting banget buat adek.
         </p>
 
         <p>
           Di umur abang yang baru ini, adek doakan semoga semua urusan
           abang dimudahkan, rezeki abang dilancarkan, kesehatan abang
-          selalu dijaga, dan semua hal yang abang perjuangkan dan usahakan
+          selalu dijaga, selalu dipertemukan dengan orang orang baik diluar sana,
+          dan semua hal yang abang perjuangkan dan usahakan
           perlahan-lahan bisa tercapai.
         </p>
 
         <p>
-          Semoga abang selalu punya alasan untuk tersenyum.
-          Dan kalau boleh adek egois sedikit...
+          Selamat mengulang tanggal 26 September yang kesekian kalinya yaaa, abang♡
+          Selamat menua dan selamat menjadi pria dewasa yang sudah menginjak kepala 2,
+          semoga di umur 20 tahun ini abang bisa jadi versi terbaik dari diri abang sendiri.
+          semoga di tanggal 26 September di tahun berikutnya kita masih bisa saling bertukar cerita
+          dan merayakan satu sama lain yaaa. Dan ditahun selanjutnya tidak akan ada lagi yang namanya
+          lelaki tidak pernah dirayakan, karena sama adek abang harus merasakan bagaimana rasanya dirayakan dan diperhatikan.
+        </p>
+        <p>
+          Ingatt kita baik ke abang bukan biar abang cinta ke kita, kita baik ke abang karena 
+          biar abang tau kalo abang sedang dicinta dengan tulus sama adek. Dan adek harap abang bisa merasakan itu.
+          I love u more than word can explain, makasih yaa udah datang dan hadir. Sama-sama mengusahakan yaa sayangkuu♡.
+        </p>
+        <p>
+          Semoga abang selalu punya alasan untuk tersenyum setiap hari yaaa.
+          Dan kalau boleh egois sedikit...
           semoga adek masih boleh nemenin abang di banyak cerita
           dan banyak ulang tahun abang selanjutnya yaa♡
         </p>
