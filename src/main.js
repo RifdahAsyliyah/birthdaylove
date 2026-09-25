@@ -52,9 +52,13 @@ app.innerHTML = `
         </h1>
 
         <p class="hero-description">
+          <p>
           26 September 2026
+          </p>
+          <p>
           Hari ini adalah hari spesial untuk seseorang yang sangat berarti
           buat adek. Jadi, adek bikin sesuatu kecil untuk abang.
+          </p>
         </p>
 
         <button class="primary-button" id="openLetterButton">
