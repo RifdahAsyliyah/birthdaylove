@@ -138,7 +138,7 @@ app.innerHTML = `
 
         <p class="letter-signature">
           with lots of love,<br />
-          <strong>adek ♡</strong>
+          <strong>Rifdah Asyliyah ♡</strong>
         </p>
 
       </div>
@@ -364,7 +364,7 @@ app.innerHTML = `
 
     <!-- ==================== FOOTER ==================== -->
     <footer class="footer">
-      <p>made with love by adek ♡</p>
+      <p>made with love by Rifdah Asyliyah♡</p>
     </footer>
 
   </main>
