@@ -189,7 +189,7 @@ app.innerHTML = `
         <!-- ==================== PHOTO 4 ==================== -->
         <figure class="memory-card memory-wide">
           <img
-            src="/photos/photo4.jpg"
+            src="/photos/photo11.jpg"
             alt="Kenangan abang dan adek - foto 4"
             onerror="this.src='https://placehold.co/1000x650/eadff2/745487?text=Memory+04'"
           />
@@ -222,7 +222,7 @@ app.innerHTML = `
         <!-- ==================== PHOTO 7 ==================== -->
         <figure class="memory-card memory-tall">
           <img
-            src="/photos/photo7.jpg"
+            src="/photos/photo12.jpg"
             alt="Kenangan abang dan adek - foto 7"
             onerror="this.src='https://placehold.co/650x900/e3d1ed/745487?text=Memory+07'"
           />
