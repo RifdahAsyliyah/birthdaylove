@@ -10,7 +10,13 @@ app.innerHTML = `
   </div>
 
   <!-- ==================== MUSIC ==================== -->
-  <audio id="backgroundMusic" loop preload="none" src="/music/song.mp3"></audio>
+  <audio
+    id="backgroundMusic"
+    loop
+    autoplay
+    preload="auto"
+    src="/music/song.mp3">
+</audio>
 
   <main class="website">
 
@@ -398,36 +404,99 @@ openLetterButton.addEventListener("click", () => {
 });
 
 
-// ============================================================
-// MUSIC
-// ============================================================
+/* =========================================================
+   MUSIC
+========================================================= */
 
 const music = document.querySelector("#backgroundMusic");
-const musicButton = document.querySelector("#musicButton");
+const musicBtn = document.querySelector("#musicButton");
 const musicLabel = document.querySelector("#musicLabel");
 
-let isMusicPlaying = false;
 
-musicButton.addEventListener("click", async () => {
+function setMusicButton(isPlaying) {
+  if (isPlaying) {
+    musicBtn.classList.add("playing");
+    musicLabel.textContent = "Music On";
+  } else {
+    musicBtn.classList.remove("playing");
+    musicLabel.textContent = "Music";
+  }
+}
+
+
+/* =========================================================
+   AUTO PLAY
+========================================================= */
+
+async function startMusic() {
   try {
-    if (!isMusicPlaying) {
-      await music.play();
-
-      isMusicPlaying = true;
-      musicButton.classList.add("playing");
-      musicLabel.textContent = "Playing...";
-    } else {
-      music.pause();
-
-      isMusicPlaying = false;
-      musicButton.classList.remove("playing");
-      musicLabel.textContent = "Music";
-    }
-  } catch {
-    alert(
-      "Tambahkan lagu terlebih dahulu ke public/music/song.mp3 yaa ♡"
+    await music.play();
+    setMusicButton(true);
+  } catch (error) {
+    console.log(
+      "Autoplay diblokir browser. Musik akan aktif setelah interaksi pengguna."
     );
   }
+}
+
+
+/*
+   Setelah halaman selesai loading,
+   tunggu sedikit lalu coba putar musik.
+*/
+
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    startMusic();
+  }, 1000);
+});
+
+
+/* =========================================================
+   FALLBACK
+   Kalau browser memblokir autoplay,
+   klik pertama pada halaman akan mencoba memutar musik.
+========================================================= */
+
+document.addEventListener(
+  "click",
+  () => {
+    if (music.paused) {
+      music.play()
+        .then(() => {
+          setMusicButton(true);
+        })
+        .catch(() => {});
+    }
+  },
+  { once: true }
+);
+
+
+/* =========================================================
+   MUSIC BUTTON
+========================================================= */
+
+musicBtn.addEventListener("click", (event) => {
+
+  // Mencegah fallback click ikut bekerja
+  event.stopPropagation();
+
+  if (music.paused) {
+
+    music.play()
+      .then(() => {
+        setMusicButton(true);
+      })
+      .catch(() => {});
+
+  } else {
+
+    music.pause();
+    setMusicButton(false);
+
+  }
+
 });
 
 
@@ -512,3 +581,34 @@ function createFloatingHearts() {
     }, 3500);
   }
 }
+
+/* =========================================================
+   FALLING FLOWER PETALS
+========================================================= */
+
+function createPetal() {
+    const petal = document.createElement("div");
+
+    petal.className = "petal";
+
+    const flowers = ["🌸", "🌷", "✿", "❀", "♡"];
+
+    petal.textContent =
+        flowers[Math.floor(Math.random() * flowers.length)];
+
+    petal.style.left = Math.random() * 100 + "vw";
+
+    petal.style.fontSize =
+        (12 + Math.random() * 13) + "px";
+
+    petal.style.animationDuration =
+        (5 + Math.random() * 6) + "s";
+
+    document.body.appendChild(petal);
+
+    setTimeout(() => {
+        petal.remove();
+    }, 12000);
+}
+
+setInterval(createPetal, 900);
