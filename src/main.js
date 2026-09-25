@@ -379,7 +379,7 @@ app.innerHTML = `
 
         <p class="final-message">
           Terima kasih sudah menjadi bagian dari cerita adek.
-          Selamat ulang tahun, abang. ♡
+          Selamat ulang tahun abang♡.
         </p>
 
         <div class="big-heart">♥</div>
