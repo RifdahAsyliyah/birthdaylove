@@ -149,12 +149,14 @@ app.innerHTML = `
           I love u more than word can explain, makasih yaa udah datang dan hadir. Sama-sama mengusahakan yaa sayangkuu♡.
         </p>
         <p>
-          Semoga abang selalu punya alasan untuk tersenyum setiap hari yaaa.
+          Semoga abang selalu punya alasan untuk terus tersenyum setiap hari yaaa.
           Dan kalau boleh egois sedikit...
           semoga adek masih boleh nemenin abang di banyak cerita
           dan banyak ulang tahun abang selanjutnya yaa♡
         </p>
-
+        <p>
+          ♡♡♡Papayyy sayangku, cintaku, untukmu, bagaikan bola salju tralala trililii muwaahhhhhh♡♡♡
+        </p>
         <p class="letter-signature">
           with lots of love,<br />
           <strong>Rifdah Asyliyah ♡</strong>
