@@ -136,7 +136,7 @@ app.innerHTML = `
         </p>
 
         <p>
-          Selamat mengulang tanggal 26 September yang kesekian kalinya yaaa, abang♡
+          Selamat mengulang tanggal 26 September yang kesekian kalinya yaaa abang♡
           Selamat menua dan selamat menjadi pria dewasa yang sudah menginjak kepala 2,
           semoga di umur 20 tahun ini abang bisa jadi versi terbaik dari diri abang sendiri.
           semoga di tanggal 26 September di tahun berikutnya kita masih bisa saling bertukar cerita
@@ -144,8 +144,8 @@ app.innerHTML = `
           lelaki tidak pernah dirayakan, karena sama adek abang harus merasakan bagaimana rasanya dirayakan dan diperhatikan.
         </p>
         <p>
-          Ingatt kita baik ke abang bukan biar abang cinta ke kita, kita baik ke abang karena 
-          biar abang tau kalo abang sedang dicinta dengan tulus sama adek. Dan adek harap abang bisa merasakan itu.
+          Ingat... kita baik ke abang bukan biar abang cinta ke kita, tapi kita baik ke abang karena 
+          biar abang tau kalo abang sedang dicintai dengan tulus sama adek. Dan adek harap abang bisa merasakan itu.
           I love u more than word can explain, makasih yaa udah datang dan hadir. Sama-sama mengusahakan yaa sayangkuu♡.
         </p>
         <p>
